@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(dns_resolver)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Poco REQUIRED Net Foundation)
+include_directories(${Poco_INCLUDE_DIRS})
+add_executable(dns_resolver src/main.cpp)
+target_link_libraries(dns_resolver ${Poco_LIBRARIES})

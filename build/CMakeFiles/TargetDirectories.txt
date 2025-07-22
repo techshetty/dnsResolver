@@ -1,0 +1,3 @@
+/home/techshetty/dns_resolver/build/CMakeFiles/dns_resolver.dir
+/home/techshetty/dns_resolver/build/CMakeFiles/edit_cache.dir
+/home/techshetty/dns_resolver/build/CMakeFiles/rebuild_cache.dir
